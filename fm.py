@@ -215,12 +215,6 @@ while True:
                 print("OPERATION CANCELED")
             else:
                 os.system('cp '+filepath+' '+dirpath)
-
-
-
-
-
-
-
+                
     else:
         print(f'{Fore.RED}ERR: {Fore.RESET}invalid option!')
